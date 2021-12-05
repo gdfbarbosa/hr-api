@@ -6,7 +6,7 @@ export class CreateEmployeeDto {
   @ApiProperty()
   lastName: boolean;
   @ApiProperty()
-  birthDate: Date;
+  startDate: Date;
   @ApiProperty()
-  gender: string;
+  startDateCooperative: Date;
 }

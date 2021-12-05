@@ -14,10 +14,10 @@ export class Employee {
   lastName: string;
   @ApiProperty()
   @Prop()
-  birthDate: Date;
+  startDate: Date;
   @ApiProperty()
   @Prop()
-  gender: string;
+  startDateCooperative: Date;
 }
 
 export const EmployeeSchema = SchemaFactory.createForClass(Employee);
